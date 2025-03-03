@@ -1,0 +1,18 @@
+/* .input-area {
+    width: 100%;
+} */
+
+.input-area form {
+    width: 300px;
+    margin: 3% auto;
+    box-sizing: border-box;
+}
+
+.input-area form * {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+input {
+    display: block;
+}

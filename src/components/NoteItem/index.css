@@ -1,0 +1,17 @@
+.note-item {
+    /* display: flex;
+    flex-direction: column; */
+    
+    min-width: 300px;
+    max-width: fit-content;
+    background-color: bisque;
+    border-radius: 5px;
+    /* margin: 1% auto; */
+
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.note-item * {
+    padding: 6px;
+}

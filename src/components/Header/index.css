@@ -1,0 +1,11 @@
+.header {
+    background-color: rgb(171, 171, 124);
+    padding: 8px 5px;
+    margin: -8px;
+    box-shadow: 2px 2px 4px 2px rgb(116, 121, 68);
+}
+
+.header h1 {
+    margin-left: 15px;
+    color: white;
+}
