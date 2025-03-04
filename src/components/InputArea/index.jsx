@@ -34,6 +34,7 @@ function InputArea(props) {
           value={noteText.content}
         />
         <button
+        className="add"
           onClick={(e) => {
             props.onClick(noteText);
             e.preventDefault();

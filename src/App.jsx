@@ -25,18 +25,19 @@ function App() {
       <Header />
 
       <InputArea onClick={handleClick} />
-
-      {notes.map((noteItem, index) => {
-        return (
-          <NoteItem
-            title={noteItem.title}
-            content={noteItem.content}
-            key={index}
-            id={index}
-            onClick={deleteNote}
-          />
-        );
-      })}
+      <div className="flex-note-item">
+        {notes.map((noteItem, index) => {
+          return (
+            <NoteItem
+              title={noteItem.title}
+              content={noteItem.content}
+              key={index}
+              id={index}
+              onClick={deleteNote}
+            />
+          );
+        })}
+      </div>
 
       <Footer />
     </div>
