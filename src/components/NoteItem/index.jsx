@@ -1,17 +1,19 @@
 import "./index.css";
+import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 function NoteItem(props) {
   return (
-      <div
-        className="note-item"
+    <div className="note-item">
+      <h2>{props.title}</h2>
+      <p>{props.content}</p>
+      
+      <DeleteOutlineIcon
+      className="delete"
         onClick={() => {
           props.onClick(props.id);
         }}
-      >
-        <h2>{props.title}</h2>
-        <p>{props.content}</p>
-      </div>
-    
+      />
+    </div>
   );
 }
 
